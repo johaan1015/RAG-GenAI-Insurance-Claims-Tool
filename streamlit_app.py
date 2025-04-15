@@ -81,7 +81,7 @@ def main():
     if uploaded_files:
             st.session_state['uploaded_files'] = uploaded_files
     with st.sidebar:
-        image_path=r"C:\Users\Johaa\Desktop\INTERNSHIP FOLDERS\Insurance_Tool\Perceptive_Analytics_logo.jpg"
+        image_path="Perceptive_Analytics_logo.jpg"
         st.image(image_path, use_column_width=True)
         selected = option_menu("Main Menu",["Liability Decision", "Eligibility Check", "Summary","Q&A"],
                             icons=['file-earmark', 'check-circle', 'list','question-circle'],
